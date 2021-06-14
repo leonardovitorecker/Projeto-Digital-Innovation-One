@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0B8186AE-0FA9-4882-8121-5366AFEAF505}</ProjectGuid>
+    <ProjectGuid>{3D1F7830-1846-4080-9422-33B5D4884A86}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DigitalInnovationOne</RootNamespace>
-    <AssemblyName>DigitalInnovationOne</AssemblyName>
+    <RootNamespace>DioFilmes</RootNamespace>
+    <AssemblyName>DioFilmes</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\EntidadeBaseFilme.cs" />
+    <Compile Include="Classes\Filme.cs" />
+    <Compile Include="Classes\FilmeRepositorio.cs" />
+    <Compile Include="Enum\GeneroFilme.cs" />
+    <Compile Include="Interfaces\IRepositorioFilme.cs" />
+    <Compile Include="ProgramFilme.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
