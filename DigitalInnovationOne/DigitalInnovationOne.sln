@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DioSeries", "DioSeries.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DioFilmes", "..\DioFilmes\DioFilmes.csproj", "{3D1F7830-1846-4080-9422-33B5D4884A86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineFix", "..\CineFix\CineFix.csproj", "{40795DFB-1FFB-41ED-85EC-BCDCE2531DD5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{3D1F7830-1846-4080-9422-33B5D4884A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D1F7830-1846-4080-9422-33B5D4884A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D1F7830-1846-4080-9422-33B5D4884A86}.Release|Any CPU.Build.0 = Release|Any CPU
-		{40795DFB-1FFB-41ED-85EC-BCDCE2531DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40795DFB-1FFB-41ED-85EC-BCDCE2531DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40795DFB-1FFB-41ED-85EC-BCDCE2531DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40795DFB-1FFB-41ED-85EC-BCDCE2531DD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

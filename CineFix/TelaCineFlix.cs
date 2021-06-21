@@ -40,7 +40,7 @@ namespace CineFix
 
 		private int TelaFilmes()
         {
-			
+			AppDomainManagerInitializa
         }
 
 
